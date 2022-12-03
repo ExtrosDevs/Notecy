@@ -3,12 +3,8 @@ import {auth} from '../../firebase-config';
 
 function Auth() {
     const SignInWithFirebase=()=>{
-        var google_provider=new auth.auth.GoogleAuthProvider();
-        auth.auth().signInWithPopup(google_provider).then((re)=>{
-            console.log(re);
-        }).catch((err)=>{
-            console.log(err);
-        })
+        const provider = new auth.GoogleAuthProvider();
+        auth.signInWithPopup(provider);
     }
   return (
     <div>
