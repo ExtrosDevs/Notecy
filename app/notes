@@ -1,3 +1,5 @@
+//Planing:
+
 card
 input-form
 --input-raw
@@ -8,3 +10,4 @@ insert-note
 header
 --NavLink
 
+//Modules changes:
