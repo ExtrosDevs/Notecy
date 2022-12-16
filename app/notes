@@ -10,5 +10,7 @@ insert-note
 header
 --NavLink
 
-//Modules changes:
-test
+tasks: 
+    //Modules changes:
+test: auth page
+    wisam:
