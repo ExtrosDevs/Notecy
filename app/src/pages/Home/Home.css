@@ -1,0 +1,9 @@
+.card-list{
+    width: 50%;
+    margin: 10px auto;
+
+}
+.card{
+    margin: 2em;
+    word-break: break-all;
+}
