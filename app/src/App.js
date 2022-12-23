@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home/Home';
 import Test from './Test';
 import Auth from './pages/Auth/Auth'
+import Profile from './pages/Profile/Profile';
 import { createTheme } from '@mui/material/styles';
 import { ThemeProvider } from '@mui/material/styles';
 import { CssBaseline } from '@mui/material';
@@ -19,6 +20,7 @@ const App = () =>{
         <Route path='/' element={<Home />} />
         <Route path='/login' element={<Auth login />} />
         <Route path='/signup' element={<Auth />} />
+        <Route path='/Dashboard' element={<Profile />} />
 
 
         <Route path='/:id' element={<Home />} />
