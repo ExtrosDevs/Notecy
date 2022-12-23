@@ -30,7 +30,15 @@
     align-items: center;
     padding: 0 ;
     background-color: rgba(171, 170, 170, 0.152)!important;   
+    position: relative;
+   
 
+}
+
+.test{
+    /* word-break: break-all; */
+    white-space: pre;
+  
 }
 .input{
     background-color: inherit !important;
